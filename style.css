@@ -1,18 +1,30 @@
 .canvas {
-    border: 1px black dotted;
+    border: 2px black solid;
     position: absolute;
-    top: 0px;
+    top: 15px;
     bottom: 0px;
-    left: 0px;
+    left: 20px;
     right: 0px;
   }
   
   #canvas-draft {
     background-color: transparent;
   }
-  body {
-    overflow: hidden;
-  }
+
   #canvas-container {
     height: 600px;
+  }
+
+  h1 {
+    color: rgba(0, 0, 0, 0.163);
+    position: absolute;
+  }
+
+  .buttons {
+    margin-top: 20px;
+    width: 250px;
+  }
+
+  span {
+    margin-top: 2px;
   }
